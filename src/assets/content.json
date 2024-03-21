@@ -1,0 +1,82 @@
+{
+    "areas": [{
+        "id": 1,
+        "name": "The Rail Yard",
+        "nodes": [{
+            "id": 1,
+            "text": [
+                "As you walk in, you are surprised to find none of the usual loitering licks. Something — or someone — has ensured privacy, at least for the night. Ahead of you, leaning against a rusted, hollow, box car, is the very same man who accosted you at last night's Elysium. He reads an unassuming, black, book, from behind tinted shades. You approach."
+            ],
+            "continue": true,
+            "nextNodeId": 2
+        }, {
+            "id": 2,
+            "speaker": "Cuthbert Beckett",
+            "speakerSlug": "beckett",
+            "text": [
+                "Pleasant evening, kindred. Or Cainite, if you so prefer. Quite decent of you to make the time for this humble servant. And so terribly punctually, withal.", 
+                "Tell me, have you heard tell of the Bat and the Elephant?"
+            ],
+            "continue": false,
+            "options": [
+                {
+                    "id": 1,
+                    "text": "Some night very long ago, I'm sure.",
+                    "nextNodeId": 5
+                },
+                {
+                    "id": 2,
+                    "text": "Can't say I have.",
+                    "nextNodeId": 6
+                },
+                {
+                    "id": 3,
+                    "text": "Kindred?",
+                    "nextNodeId": 7
+                },
+                {
+                    "id": 4,
+                    "text": "Cainite?",
+                    "nextNodeId": 8
+                }
+            ]
+        }, {
+            "id": 5,
+            "speaker": "Cuthbert Beckett",
+            "speakerSlug": "beckett",
+            "text": [
+                "What the Nod did you just fucking say about me, you little Cainite? I'll have you know I graduated top of my class in Noddism, and I've been involved in numerous secret raids on Methuselah havens, and I have over 300 confirmed diableries. I am trained in Potence and I'm the top killer of the Sabbat legions. You are nothing to me but just another lick. I will diablerize you the fuck out with precision the likes of which has never been seen before in the Free State, mark my bleeding words. You think you can get away with saying that shit to me over the Schrecknet? Think again, lick. As we speak I am contacting my secret network of Malks and your sanguine blood is being traced right now so you better prepare for the Final Nights, shovel head."
+            ],
+            "optionNodeId": 2,
+            "continue": false
+        }, {
+            "id": 6,
+            "speaker": "Cuthbert Beckett",
+            "speakerSlug": "beckett",
+            "text": [
+                "I should think not. It's not a tale the Camarilla would tell you."
+            ],
+            "optionNodeId": 2,
+            "continue": false
+        }, {
+            "id": 7,
+            "speaker": "Cuthbert Beckett",
+            "speakerSlug": "beckett",
+            "text": [
+                "The Camarilla's preferred word for our kind. You'll find it nom de rigueur amongst secularists and party-line loyalists."
+            ],
+            "optionNodeId": 2,
+            "continue": false
+        }, {
+            "id": 8,
+            "speaker": "Cuthbert Beckett",
+            "speakerSlug": "beckett",
+            "text": [
+                "Ah, a term of particular controversy in these Final Nights. To breathe it is to imply that we are all of us descendants of Caine. The Great Sire. The Dark Father. The First.",
+                "Do try to avoid the term around any Princes you may find yourself in the court of."
+            ],
+            "optionNodeId": 2,
+            "continue": false
+        }]
+    }]
+}
